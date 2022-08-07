@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -15,6 +16,7 @@ public class Main {
         mentoria.setData(LocalDate.now());
         mentoria.setDescricao("Viva la vida");
         mentoria.setTitulo("Coldplay");
+
 
         System.out.println(curso);
         System.out.println(mentoria);
